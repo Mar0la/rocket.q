@@ -9,6 +9,7 @@
     <!--STYLE-->
     <link rel="stylesheet" href="styles/room.css">
     <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/modal.css">
 
 
     <!--FONTS-->
@@ -32,7 +33,7 @@
                     <img src="assets/image/copy.svg" alt="Copiar numero da sala">
                 </div>
                 <a href="#" class="button">
-                    <img src="assets/image/users1.svg" alt="Criar uma sala">
+                    <img src="assets/image/users-white.svg" alt="Criar uma sala">
                     Criar sala
                 </a>
             </div>
@@ -57,33 +58,95 @@
              <section id="question">
                  <h2 class="sr-only">Perguntas da Comunidade</h2>
                  <div class="questions">
+
                     <div class="question-wrapper">
-                        <div class="queston content">
+                        <div class="question-content">
                             <div class="user">
-                                <img src="assets/image/avatar.svg" alt="">
+                                <img src="assets/image/avatar.svg" alt="Avatar">
                             </div>
                             <div class="question">
-                                <p>Qual a diferença entre const, var e let no JS</p>
+                                <p>O que é JavaScript? </p>
                             </div>
                         </div>
-                        <div class="action">
+                        <div class="actions">
                             <a href="#" class="check">
                                 <img src="assets/image/check.svg" alt="Marcar como lida">
                                 Marcar como lida
                             </a>
-                            
                             <a href="#" class="delete">
                                 <img src="assets/image/Apagar.svg" alt="Excluir">
                                 Excluir
                             </a>
-                            
                         </div>
                     </div>
+
+                    <div class="question-wrapper">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/image/avatar.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>Qual a diferença entre h1 e h2?</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="check">
+                                <img src="assets/image/check.svg" alt="Marcar como lida">
+                                Marcar como lida
+                            </a>
+                            <a href="#" class="delete">
+                                <img src="assets/image/Apagar.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="question-wrapper read">
+                        <div class="question-content">
+                            <div class="user">
+                                <img src="assets/image/avatar.svg" alt="Avatar">
+                            </div>
+                            <div class="question">
+                                <p>O que é Script?</p>
+                            </div>
+                        </div>
+                        <div class="actions">
+                            <a href="#" class="delete">
+                                <img src="assets/image/Apagar.svg" alt="Excluir">
+                                Excluir
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+    </div>
 
                  </div>
              </section>
         </main>
+    </div>
 
+    <!----- MODAL ------>
+    <div class="modal-wrapper">
+        <div class="modal">
+            <h2>Excluir Pergunta</h2>
+            <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+            <form action="#">
+                <label class="sr-only" for-id="password">Digite sua senha admin</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" />
+
+                <div class="buttons">
+                    <div class="button grey">Cancelar</div>
+                    <button class="red">Sim, excluir</button>
+                </div>
+            </form>
+
+        </div>
     </div>
 </body>
 </html>

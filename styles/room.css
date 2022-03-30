@@ -139,7 +139,7 @@
     margin-left: 2.4rem;
 }
 
-/***** Question Read ****/
+/***** QUESTIONS READ ****/
 .question-wrapper.read{
     background: var(--grey-medium);
 }
@@ -149,7 +149,7 @@
 }
 
 
-/*** No Questions   **/
+/*** NO QUESTIONS   **/
 .no-questions{
     text-align: center;
     margin-top: 5.2rem;
